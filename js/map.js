@@ -4,10 +4,10 @@ var mapObject,
 		'Marker': [
 			{
 				logoUrl: 'img/map/infoimg.png',
-				address: '1234 Street Name, City Name, USA',
+				address: 'Av. Micaela Bastidas Zn "F" Mz D Lt 5 Cieneguilla',
 				title: 'FoodBoard Restaurant',
-				mail: 'info@yourdomain.com',
-				phone: '+3630123456789',
+				mail: 'ventas@donquezo.com',
+				phone: '+51987407185',
 				latitude: 40.697149,
 				longitude: -74.259865
 			}
