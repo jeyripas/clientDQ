@@ -192,7 +192,7 @@
 		},
 		navbars: [{
 			position: 'bottom',
-			content: ['<a href="#">© 2021 FoodBoard</a>']
+			content: ['<a href="#">© 2023 Don Quezo</a>']
 		}]
 	}, {
 		// configuration
@@ -320,7 +320,7 @@
 			return value !== '$ 0.00';
 		},
 		messages: {
-			en: 'Order is empty.'
+			en: 'El pedido está vacío.'
 		}
 	});
 
@@ -338,7 +338,7 @@
 	// Function to format item prices usign priceFormat plugin
 	function formatPrice() {
 		$('.format-price').priceFormat({
-			prefix: '$ ',
+			prefix: 'S/ ',
 			centsSeparator: '.',
 			thousandsSeparator: ','
 		});
@@ -444,7 +444,7 @@
 		$('#itemList').append('<li id="emptyCart"></li>');
 
 		// Fill the dedicated row
-		$('#emptyCart').html('<div class="order-list-img"><img src="../img/bg/empty-cart-small.jpg" alt="Your cart is empty"/></div><div class="order-list-details"> <h4>Your cart is empty</a><br/><small>Start adding items</small></h4> <div class="order-list-price format-price">0.00</div></div>');
+		$('#emptyCart').html('<div class="order-list-img"><img src="../img/bg/empty-cart-small.jpg" alt="Tu carrito está vacío"/></div><div class="order-list-details"> <h4>Tu carrito está vacío</a><br/><small>Agrega al menos 1 elemento</small></h4> <div class="order-list-price format-price">0.00</div></div>');
 		formatPrice();
 	}
 
