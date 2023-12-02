@@ -64,8 +64,8 @@
                     </div>
                     <div class="col-lg-9 col-6">
                         <ul id="menuIcons">
-                            <li><a href="#"><i class="icon icon-support"></i></a></li>
-                            <li><a href="#"><i class="icon icon-shopping-cart2"></i></a></li>
+                            <li><a href="tel:+51987407185"><i class="icon icon-support"></i></a></li>
+                            <li><a href="##orderSummaryStep"><i class="icon icon-shopping-cart2"></i></a></li>
                         </ul>
                         <!-- Menu -->
                         <nav id="menu" class="main-menu">
@@ -137,7 +137,7 @@
                                 </div>
                                 <div class="col-md-6 col-sm-6">
                                     <div class="search-wrap">
-                                        <input id="search" type="text" class="form-control" placeholder="Search..." />
+                                        <input id="search" type="text" class="form-control" placeholder="Buscar..." />
                                         <i class="icon icon-search"></i>
                                     </div>
                                 </div>
@@ -528,6 +528,28 @@
                                                 </div>
                                             </div>
                                             <!-- Delivery Fee -->
+                                            <div class="row">
+                                                <div class="col-6 pr-0">
+                                                    <div class="form-group">
+                                                        <input type="checkbox" id="cbxOnlinePayment" class="inp-cbx"
+                                                            name="terms" value="yes" required />
+                                                        <label class="cbx terms" for="cbxOnlinePayment">
+                                                            <span>
+                                                                <svg width="12px" height="10px" viewbox="0 0 12 10">
+                                                                    <polyline points="1.5 6 4.5 9 10.5 1">
+                                                                    </polyline>
+                                                                </svg>
+                                                            </span>
+                                                            <span>Accept<a href="../pdf/terms.pdf"
+                                                                    class="terms-link"
+                                                                    target="_blank">Términos y condiciones</a>.</span>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-6 pl-0">
+                                                    <a href="javascript:;" class="modify-order backward">Modificar Orden</a>
+                                                </div>
+                                            </div>
                                             <!-- Total -->
                                             <div class="row total-container">
                                                 <div class="col-md-12 p-0">
@@ -653,7 +675,7 @@
                                                                         </polyline>
                                                                     </svg>
                                                                 </span>
-                                                                <span>Accept<a href="../pdf/terms.pdf"
+                                                                <span>Acepto los<a href="../pdf/terms.pdf"
                                                                         class="terms-link"
                                                                         target="_blank">Términos y condiciones</a>.</span>
                                                             </label>
