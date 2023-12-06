@@ -40,7 +40,9 @@ const requestBody = {
     totalValue,
     formData
 };
-formValidate()
+const existFormValidate = await formValidate()
+if (existFormValidate) {
+
 
     const res = await fetch("https://serverdq-production.up.railway.app/api/v1/create-order", {
         method: "POST",
@@ -57,6 +59,7 @@ formValidate()
     } else {
         const data = await res.json();
          window.location.href = data.init_point;
+    }
     }
 
 });
