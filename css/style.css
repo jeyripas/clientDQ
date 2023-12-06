@@ -2680,6 +2680,11 @@ label.cbx {
 	transition: all 0.6s ease;
 }
 
+.add-cart {
+	font-size: 16px;
+    vertical-align: top;
+}
+
 @keyframes wave {
 	50% {
 		transform: scale(0.9);
