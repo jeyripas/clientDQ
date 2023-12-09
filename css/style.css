@@ -1177,6 +1177,14 @@ a.btn-2:hover, .btn-2:hover {
 	background-size: cover;
 }
 
+.hero-order.bg-img-reparto {
+	background: #f1192f url(../img/bg/bg-reparto.jpg) no-repeat center bottom;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 .hero-order .content {
 	display: table-cell;
 	padding: 0;
